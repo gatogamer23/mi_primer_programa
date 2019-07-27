@@ -1,7 +1,6 @@
-dime_un_numero = int(input('Dime un número:'))
-
-if dime_un_numero > 5:
-    print('Has ganado!')
+number_to_guess = 5
+user_nuber = int(input('Adivina el número que estoy pensando'))
+if user_nuber == number_to_guess:
+    print('Has Ganado!!')
 else:
-    print('Has perdido :c')
-
+    print('Has Perdido :C')
