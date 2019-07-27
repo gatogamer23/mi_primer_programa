@@ -1,6 +1,0 @@
-number_to_guess = 5
-user_nuber = int(input('Adivina el número que estoy pensando'))
-if user_nuber == number_to_guess:
-    print('Has Ganado!!')
-else:
-    print('Has Perdido :C')
